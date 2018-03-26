@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/atechdb" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="ashokreddem" password="Ashok9848!" 
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/atechdb?useSSL=false"/>
+
+</Context>
